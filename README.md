@@ -20,16 +20,6 @@ La herramienta busca facilitar la toma de decisiones informadas y motivar a los 
 - `/config`: Configuraciones generales del proyecto.
 - `.env`: Variables de entorno para configuración sensible.
 
-## Instalación
+## Uso
 
-### Requisitos previos
-
-- Node.js y npm instalados
-- MySQL instalado y configurado
-
-### Pasos para la instalación
-
-1. Clona el repositorio:
-
-   ```bash
-   git clone https://github.com/tu_usuario/orientacion-carreras.git
+La plataforma permite a los estudiantes registrarse, realizar test vocacionales, explorar información sobre carreras y participar en minijuegos educativos para apoyar la toma de decisiones vocacionales.
