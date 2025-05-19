@@ -1,13 +1,13 @@
 require('dotenv').config();
 const express = require('express');
-const sequelize = require('./models');
-require('./models/associations');
+const { sequelize } = require('./models');
 
 const app = express();
 app.use(express.json());
 
-app.use('/carreras', require('./routes/Carrera'));
-app.use('/usuario', require('./routes/Usuario'));
+// Rutas
+app.use('/carreras', require('./routes/carreras'));
+app.use('/usuario', require('./routes/usuario'));
 
 (async () => {
     try {
