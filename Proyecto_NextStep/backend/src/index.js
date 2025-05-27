@@ -29,6 +29,6 @@ app.use('/usuario', require('./routes/usuario'));
       console.log(`Servidor corriendo en http://localhost:${PORT}`);
     });
   } catch (error) {
-    console.error('❌ Error al conectar la base de datos:', error);
+    console.error('Error al conectar la base de datos:', error);
   }
 })();
